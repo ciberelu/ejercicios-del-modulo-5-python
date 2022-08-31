@@ -1,16 +1,12 @@
 import math
-
+## programa para sacar area de un triangulo
 
 def areaTriangulo(base, altura):
-    base = (base * altura)/2
-    return base
+    return (base *altura)/ 2
+print(f" area de triangulo: {areaTriangulo(20, 30)}")
 
-resultado = areaTriangulo(20, 30)
-print(resultado)
-
+# programa para sacar area de un circulo
 def areaCirculo(radio):
-    resultado = math.pi * (radio *radio) 
-    return resultado 
+    return math.pi * (radio **2) 
 
-resultadoCirculo = areaCirculo(19)
-print(resultadoCirculo)
+print(f"El area del ciruclo es: {areaCirculo(19)}")
